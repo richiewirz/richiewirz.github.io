@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8">
+		<meta http-equiv="X_UA_Compatible" content="IE=edge">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<meta name="theme-color" content="#111">
+		<title>Music Page</title>
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+		<link rel="stylesheet" media="screen" href="https://fontlibrary.org/face/genome" type="text/css"/>
+	  <link rel="stylesheet" href="css/style.min.css">
+	</head>
+	<body>
+		<div id="page-wrapper">
+			<div id="nav-wrapper">
+				<div class="mobnav">
+					<p id="#home">Home</p>
+					<p id="#music">Music</p>
+					<p id="#info">Info</p>
+					<p id="#contact">Contact</p>
+				</div>
+				<div class="sidenav">
+					<p id="#home">Home</p>
+					<p id="#music">Music</p>
+					<p id="#info">Info</p>
+					<p id="#contact">Contact</p>
+				</div>
+			</div>
+			<div id="content-wrapper">
+				<div id="home-slide" class="slide active">
+					<h1>Richie Wirz Music</h1>
+					<div class="slide-content">
+						<img class="large-album" src="images/album_cover.jpg"></img>
+					</div>
+				</div>
+				<div id="music-slide" class="slide">
+					<h1>Music</h1>
+					<div class="slide-content">
+						<div class="songList">
+
+						</div>
+					</div>
+				</div>
+				<div id="info-slide" class="slide">
+					<h1>Info</h1>
+					<div class="slide-content">
+						<h2>Purchase EP</h2>
+						<p>The Whisper EP is available for sampling and purchase on
+							<a href="https://www.apple.com/itunes/download/">iTunes</a>,
+							<a href="https://richiewirz.bandcamp.com/">bandcamp</a>,
+							<a href="https://store.cdbaby.com/cd/richiewirz">CD Baby</a>,
+							<a href="https://www.amazon.com/Whisper-EP-Richie-Wirz/dp/B004CYP7OY/ref=sr_1_1?s=dmusic&ie=UTF8&qid=1446013313&sr=1-1-mp3-albums-bar-strip-0&keywords=richie+wirz">Amazon</a>,
+							<a href="https://open.spotify.com/artist/672wpOY3lYiKbrNd0pzkX4">Spotify</a>,
+							<a href="https://soundcloud.com/user-770881589-302057563/sets/richie-wirz-whisper-ep">SoundCloud</a>,
+							and many more.</p>
+						</div>
+				</div>
+				<div id="contact-slide" class="slide">
+					<h1>Contact</h1>
+					<div class="slide-content">
+						<p>Email:</p>
+						<p><a href="mailto:richiewirz@gmail.com">richiewirz@gmail.com</a></p>
+					</div>
+				</div>
+			</div>
+			<div id="floatingPlayer" class="player">
+				<div id="info" class="info">
+					<div class="title-artist-container">
+						<span id="title" class="name">Whisper</span>
+						<span id="artist" class="artist">Richie Wirz</span>
+					</div>
+					<div class="progress">
+						<div class="progress-bar">
+							<div id="bar" class="bar"></div>
+						</div>
+						<p id="time" class="time">0:00</p>
+					</div>
+				</div>
+				<div id="control-panel" class="control-panel">
+					<div class="album-art" id="album-art"></div>
+					<div class="controls">
+						<div id="prev" class="prev"></div>
+						<div id="play" class="play"></div>
+						<div id="next" class="next"></div>
+					</div>
+				</div>
+			</div>
+	    <script type="text/javascript" src="js/player.js"></script>
+			<script type="text/javascript" src="js/main.js"></script>
+		</div>
+	</body>
+</html>
